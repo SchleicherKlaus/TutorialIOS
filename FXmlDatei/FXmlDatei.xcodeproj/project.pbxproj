@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5EAB28178B53A400199A9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5EAB27178B53A400199A9D /* Foundation.framework */; };
+		4A5EAB2B178B53A400199A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5EAB2A178B53A400199A9D /* main.m */; };
+		4A5EAB2F178B53A400199A9D /* FXmlDatei.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A5EAB2E178B53A400199A9D /* FXmlDatei.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A5EAB22178B53A400199A9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4A5EAB2F178B53A400199A9D /* FXmlDatei.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A5EAB24178B53A400199A9D /* FXmlDatei */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FXmlDatei; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5EAB27178B53A400199A9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A5EAB2A178B53A400199A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A5EAB2D178B53A400199A9D /* FXmlDatei-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXmlDatei-Prefix.pch"; sourceTree = "<group>"; };
+		4A5EAB2E178B53A400199A9D /* FXmlDatei.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FXmlDatei.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5EAB21178B53A400199A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5EAB28178B53A400199A9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5EAB1B178B53A400199A9D = {
+			isa = PBXGroup;
+			children = (
+				4A5EAB29178B53A400199A9D /* FXmlDatei */,
+				4A5EAB26178B53A400199A9D /* Frameworks */,
+				4A5EAB25178B53A400199A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5EAB25178B53A400199A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EAB24178B53A400199A9D /* FXmlDatei */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5EAB26178B53A400199A9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EAB27178B53A400199A9D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A5EAB29178B53A400199A9D /* FXmlDatei */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EAB2A178B53A400199A9D /* main.m */,
+				4A5EAB2E178B53A400199A9D /* FXmlDatei.1 */,
+				4A5EAB2C178B53A400199A9D /* Supporting Files */,
+			);
+			path = FXmlDatei;
+			sourceTree = "<group>";
+		};
+		4A5EAB2C178B53A400199A9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EAB2D178B53A400199A9D /* FXmlDatei-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5EAB23178B53A400199A9D /* FXmlDatei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5EAB32178B53A400199A9D /* Build configuration list for PBXNativeTarget "FXmlDatei" */;
+			buildPhases = (
+				4A5EAB20178B53A400199A9D /* Sources */,
+				4A5EAB21178B53A400199A9D /* Frameworks */,
+				4A5EAB22178B53A400199A9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXmlDatei;
+			productName = FXmlDatei;
+			productReference = 4A5EAB24178B53A400199A9D /* FXmlDatei */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5EAB1C178B53A400199A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Klaus Schleicher";
+			};
+			buildConfigurationList = 4A5EAB1F178B53A400199A9D /* Build configuration list for PBXProject "FXmlDatei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A5EAB1B178B53A400199A9D;
+			productRefGroup = 4A5EAB25178B53A400199A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5EAB23178B53A400199A9D /* FXmlDatei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5EAB20178B53A400199A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5EAB2B178B53A400199A9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A5EAB30178B53A400199A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A5EAB31178B53A400199A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A5EAB33178B53A400199A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXmlDatei/FXmlDatei-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A5EAB34178B53A400199A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXmlDatei/FXmlDatei-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5EAB1F178B53A400199A9D /* Build configuration list for PBXProject "FXmlDatei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5EAB30178B53A400199A9D /* Debug */,
+				4A5EAB31178B53A400199A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5EAB32178B53A400199A9D /* Build configuration list for PBXNativeTarget "FXmlDatei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5EAB33178B53A400199A9D /* Debug */,
+				4A5EAB34178B53A400199A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5EAB1C178B53A400199A9D /* Project object */;
+}

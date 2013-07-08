@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FDictionary' target in the 'FDictionary' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
