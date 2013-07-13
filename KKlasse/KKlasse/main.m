@@ -19,9 +19,9 @@ int main(int argc, const char * argv[])
         [dacia setLeistung:99];
         [dacia setFarbe:@"blau"];
         
-        NSLog(@"Leistung: %d PS, Farbe: %@",
-              [dacia leistung], [dacia farbe]);
-        
+//        NSLog(@"Leistung: %d PS, Farbe: %@",
+//              [dacia leistung], [dacia farbe]);
+        NSLog(@"%@",[dacia description]);
         
     }
     return 0;

@@ -21,4 +21,8 @@
 //- (int) leistung;
 //- (NSString *) farbe;
 
+-(id)initMitLeistung:(int)lg;
+-(id)initMitFarbe:(NSString *)fa;
+-(id)initMitLeistung:(int)lg farbe:(NSString *)fa;
+
 @end

@@ -12,6 +12,41 @@
 @synthesize leistung;
 @synthesize farbe;
 
+-(id)init
+{
+    self = [self initMitLeistung:0 farbe:@"unlackiert"];
+    return self;
+}
+
+-(id)initMitLeistung:(int)neueLeistung;
+{
+    self = [self initMitLeistung:neueLeistung farbe:@"unlackiert"];
+    return self;
+}
+
+-(id)initMitFarbe:(NSString *)neueFarbe
+{
+    self = [self initMitLeistung:0 farbe:neueFarbe];
+    return self;
+}
+
+-(id)initMitLeistung:(int)neueLeistung
+farbe:(NSString *)neueFarbe
+{
+    self = [super init];
+    if(self)
+    {
+        leistung = neueLeistung;
+        farbe = [neueFarbe copy];
+    }
+    return self;
+}
+
+-(NSString *)description
+{
+    return [NSString stringWithFormat:@"Fahrzeug-Objekt: Leistung %d kw, Farbe %@", [self leistung], [self farbe]];
+}
+
 //- (void)setLeistung:(int)neueLeistung
 //{
 //    if(leistung <0)
