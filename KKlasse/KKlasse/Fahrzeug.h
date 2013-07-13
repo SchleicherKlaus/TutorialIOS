@@ -13,10 +13,12 @@
     int leistung;
     NSString *farbe;
 }
+@property int leistung;
+@property (copy) NSString *farbe;
 
-- (void) setLeistung:(int)neueLeistung;
-- (void) setFarbe:(NSString *)neueFarbe;
-- (int) leistung;
-- (NSString *) farbe;
+//- (void) setLeistung:(int)neueLeistung;
+//- (void) setFarbe:(NSString *)neueFarbe;
+//- (int) leistung;
+//- (NSString *) farbe;
 
 @end
