@@ -10,6 +10,8 @@
 		4A1E1F76179C5B290055DD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1E1F75179C5B290055DD35 /* Foundation.framework */; };
 		4A1E1F79179C5B290055DD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E1F78179C5B290055DD35 /* main.m */; };
 		4A1E1F7D179C5B290055DD35 /* KKeyPath.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A1E1F7C179C5B290055DD35 /* KKeyPath.1 */; };
+		4A1E1F85179C5B8C0055DD35 /* Motor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E1F84179C5B8C0055DD35 /* Motor.m */; };
+		4A1E1F88179C5D060055DD35 /* Fahrzeug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E1F87179C5D060055DD35 /* Fahrzeug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		4A1E1F78179C5B290055DD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A1E1F7B179C5B290055DD35 /* KKeyPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKeyPath-Prefix.pch"; sourceTree = "<group>"; };
 		4A1E1F7C179C5B290055DD35 /* KKeyPath.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KKeyPath.1; sourceTree = "<group>"; };
+		4A1E1F83179C5B8C0055DD35 /* Motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motor.h; sourceTree = "<group>"; };
+		4A1E1F84179C5B8C0055DD35 /* Motor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motor.m; sourceTree = "<group>"; };
+		4A1E1F86179C5D060055DD35 /* Fahrzeug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fahrzeug.h; sourceTree = "<group>"; };
+		4A1E1F87179C5D060055DD35 /* Fahrzeug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fahrzeug.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 			children = (
 				4A1E1F78179C5B290055DD35 /* main.m */,
 				4A1E1F7C179C5B290055DD35 /* KKeyPath.1 */,
+				4A1E1F83179C5B8C0055DD35 /* Motor.h */,
+				4A1E1F84179C5B8C0055DD35 /* Motor.m */,
+				4A1E1F86179C5D060055DD35 /* Fahrzeug.h */,
+				4A1E1F87179C5D060055DD35 /* Fahrzeug.m */,
 				4A1E1F7A179C5B290055DD35 /* Supporting Files */,
 			);
 			path = KKeyPath;
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A1E1F79179C5B290055DD35 /* main.m in Sources */,
+				4A1E1F85179C5B8C0055DD35 /* Motor.m in Sources */,
+				4A1E1F88179C5D060055DD35 /* Fahrzeug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
