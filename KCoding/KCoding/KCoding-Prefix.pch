@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KCoding' target in the 'KCoding' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
