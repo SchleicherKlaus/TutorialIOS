@@ -35,13 +35,8 @@ int main(int argc, const char * argv[])
         {
             [dacia setLeistung:70+i];
         }
-        
-        
         [dacia removeObserver:pz1 forKeyPath:@"leistung"];
         [dacia removeObserver:pz2 forKeyPath:@"farbe"];
-        
-
-        
     }
     return 0;
 }
