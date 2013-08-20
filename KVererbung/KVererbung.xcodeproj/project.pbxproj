@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4A453A17C3F355005917E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4A453917C3F355005917E2 /* Foundation.framework */; };
+		4A4A453D17C3F355005917E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A453C17C3F355005917E2 /* main.m */; };
+		4A4A454117C3F355005917E2 /* KVererbung.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A4A454017C3F355005917E2 /* KVererbung.1 */; };
+		4A4A454917C3F3A0005917E2 /* Fahrzeug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A454817C3F3A0005917E2 /* Fahrzeug.m */; };
+		4A4A454C17C3F586005917E2 /* Lastwagen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A454B17C3F586005917E2 /* Lastwagen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A4A453417C3F355005917E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4A4A454117C3F355005917E2 /* KVererbung.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A4A453617C3F355005917E2 /* KVererbung */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVererbung; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4A453917C3F355005917E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A4A453C17C3F355005917E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A4A453F17C3F355005917E2 /* KVererbung-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVererbung-Prefix.pch"; sourceTree = "<group>"; };
+		4A4A454017C3F355005917E2 /* KVererbung.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KVererbung.1; sourceTree = "<group>"; };
+		4A4A454717C3F3A0005917E2 /* Fahrzeug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fahrzeug.h; path = ../Fahrzeug.h; sourceTree = "<group>"; };
+		4A4A454817C3F3A0005917E2 /* Fahrzeug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fahrzeug.m; path = ../Fahrzeug.m; sourceTree = "<group>"; };
+		4A4A454A17C3F586005917E2 /* Lastwagen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lastwagen.h; path = ../Lastwagen.h; sourceTree = "<group>"; };
+		4A4A454B17C3F586005917E2 /* Lastwagen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lastwagen.m; path = ../Lastwagen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4A453317C3F355005917E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A453A17C3F355005917E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4A452D17C3F355005917E2 = {
+			isa = PBXGroup;
+			children = (
+				4A4A453B17C3F355005917E2 /* KVererbung */,
+				4A4A453817C3F355005917E2 /* Frameworks */,
+				4A4A453717C3F355005917E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4A453717C3F355005917E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A453617C3F355005917E2 /* KVererbung */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4A453817C3F355005917E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A453917C3F355005917E2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4A453B17C3F355005917E2 /* KVererbung */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A454A17C3F586005917E2 /* Lastwagen.h */,
+				4A4A454B17C3F586005917E2 /* Lastwagen.m */,
+				4A4A454717C3F3A0005917E2 /* Fahrzeug.h */,
+				4A4A454817C3F3A0005917E2 /* Fahrzeug.m */,
+				4A4A453C17C3F355005917E2 /* main.m */,
+				4A4A454017C3F355005917E2 /* KVererbung.1 */,
+				4A4A453E17C3F355005917E2 /* Supporting Files */,
+			);
+			path = KVererbung;
+			sourceTree = "<group>";
+		};
+		4A4A453E17C3F355005917E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A453F17C3F355005917E2 /* KVererbung-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4A453517C3F355005917E2 /* KVererbung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4A454417C3F355005917E2 /* Build configuration list for PBXNativeTarget "KVererbung" */;
+			buildPhases = (
+				4A4A453217C3F355005917E2 /* Sources */,
+				4A4A453317C3F355005917E2 /* Frameworks */,
+				4A4A453417C3F355005917E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVererbung;
+			productName = KVererbung;
+			productReference = 4A4A453617C3F355005917E2 /* KVererbung */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4A452E17C3F355005917E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Klaus Schleicher";
+			};
+			buildConfigurationList = 4A4A453117C3F355005917E2 /* Build configuration list for PBXProject "KVererbung" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A4A452D17C3F355005917E2;
+			productRefGroup = 4A4A453717C3F355005917E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4A453517C3F355005917E2 /* KVererbung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4A453217C3F355005917E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A453D17C3F355005917E2 /* main.m in Sources */,
+				4A4A454917C3F3A0005917E2 /* Fahrzeug.m in Sources */,
+				4A4A454C17C3F586005917E2 /* Lastwagen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A4A454217C3F355005917E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A4A454317C3F355005917E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A4A454517C3F355005917E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVererbung/KVererbung-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A4A454617C3F355005917E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVererbung/KVererbung-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4A453117C3F355005917E2 /* Build configuration list for PBXProject "KVererbung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4A454217C3F355005917E2 /* Debug */,
+				4A4A454317C3F355005917E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4A454417C3F355005917E2 /* Build configuration list for PBXNativeTarget "KVererbung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4A454517C3F355005917E2 /* Debug */,
+				4A4A454617C3F355005917E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4A452E17C3F355005917E2 /* Project object */;
+}
