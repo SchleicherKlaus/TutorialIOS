@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A3F3AD1-5D75-480D-98FB-938F66DE40A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GDropBox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BFAD5F0-1F5A-466A-AB00-D0515E730D0D</key>
+		<string>https://github.com/SchleicherKlaus/TutorialIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GDropBox/GDropBox.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BFAD5F0-1F5A-466A-AB00-D0515E730D0D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SchleicherKlaus/TutorialIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BFAD5F0-1F5A-466A-AB00-D0515E730D0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BFAD5F0-1F5A-466A-AB00-D0515E730D0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TutorialIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
