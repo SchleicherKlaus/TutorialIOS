@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface SIControllerMain : NSObject
+{
+    IBOutlet NSComboBox *comboBox;
+    IBOutlet NSTextField *txtAusgabe;
+    IBOutlet NSTextField *txtInfo;
+}
+-(IBAction)zeigeAuswahl:(id)sender;
+-(IBAction)hinzuEintrag:(id)sender;
+-(IBAction)loescheAuswahl:(id)sender;
 
 @end
