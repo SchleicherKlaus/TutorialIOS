@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A44596217CE905700B93851 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A44596117CE905700B93851 /* Cocoa.framework */; };
+		4A44596C17CE905700B93851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A44596A17CE905700B93851 /* InfoPlist.strings */; };
+		4A44596E17CE905700B93851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44596D17CE905700B93851 /* main.m */; };
+		4A44597217CE905700B93851 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A44597017CE905700B93851 /* Credits.rtf */; };
+		4A44597517CE905700B93851 /* SIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44597417CE905700B93851 /* SIAppDelegate.m */; };
+		4A44597817CE905700B93851 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A44597617CE905700B93851 /* MainMenu.xib */; };
+		4A44597A17CE905700B93851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A44597917CE905700B93851 /* Images.xcassets */; };
+		4A44598117CE905700B93851 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A44598017CE905700B93851 /* XCTest.framework */; };
+		4A44598217CE905700B93851 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A44596117CE905700B93851 /* Cocoa.framework */; };
+		4A44598A17CE905700B93851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A44598817CE905700B93851 /* InfoPlist.strings */; };
+		4A44598C17CE905700B93851 /* GSizeInspectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44598B17CE905700B93851 /* GSizeInspectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A44598317CE905700B93851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A44595617CE905700B93851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A44595D17CE905700B93851;
+			remoteInfo = GSizeInspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A44595E17CE905700B93851 /* GSizeInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSizeInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A44596117CE905700B93851 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A44596417CE905700B93851 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A44596517CE905700B93851 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A44596617CE905700B93851 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A44596917CE905700B93851 /* GSizeInspector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSizeInspector-Info.plist"; sourceTree = "<group>"; };
+		4A44596B17CE905700B93851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A44596D17CE905700B93851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A44596F17CE905700B93851 /* GSizeInspector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSizeInspector-Prefix.pch"; sourceTree = "<group>"; };
+		4A44597117CE905700B93851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A44597317CE905700B93851 /* SIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIAppDelegate.h; sourceTree = "<group>"; };
+		4A44597417CE905700B93851 /* SIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIAppDelegate.m; sourceTree = "<group>"; };
+		4A44597717CE905700B93851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A44597917CE905700B93851 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A44597F17CE905700B93851 /* GSizeInspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSizeInspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A44598017CE905700B93851 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A44598717CE905700B93851 /* GSizeInspectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSizeInspectorTests-Info.plist"; sourceTree = "<group>"; };
+		4A44598917CE905700B93851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A44598B17CE905700B93851 /* GSizeInspectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSizeInspectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A44595B17CE905700B93851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44596217CE905700B93851 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A44597C17CE905700B93851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44598217CE905700B93851 /* Cocoa.framework in Frameworks */,
+				4A44598117CE905700B93851 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A44595517CE905700B93851 = {
+			isa = PBXGroup;
+			children = (
+				4A44596717CE905700B93851 /* GSizeInspector */,
+				4A44598517CE905700B93851 /* GSizeInspectorTests */,
+				4A44596017CE905700B93851 /* Frameworks */,
+				4A44595F17CE905700B93851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A44595F17CE905700B93851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A44595E17CE905700B93851 /* GSizeInspector.app */,
+				4A44597F17CE905700B93851 /* GSizeInspectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A44596017CE905700B93851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A44596117CE905700B93851 /* Cocoa.framework */,
+				4A44598017CE905700B93851 /* XCTest.framework */,
+				4A44596317CE905700B93851 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A44596317CE905700B93851 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A44596417CE905700B93851 /* AppKit.framework */,
+				4A44596517CE905700B93851 /* CoreData.framework */,
+				4A44596617CE905700B93851 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A44596717CE905700B93851 /* GSizeInspector */ = {
+			isa = PBXGroup;
+			children = (
+				4A44597317CE905700B93851 /* SIAppDelegate.h */,
+				4A44597417CE905700B93851 /* SIAppDelegate.m */,
+				4A44597617CE905700B93851 /* MainMenu.xib */,
+				4A44597917CE905700B93851 /* Images.xcassets */,
+				4A44596817CE905700B93851 /* Supporting Files */,
+			);
+			path = GSizeInspector;
+			sourceTree = "<group>";
+		};
+		4A44596817CE905700B93851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A44596917CE905700B93851 /* GSizeInspector-Info.plist */,
+				4A44596A17CE905700B93851 /* InfoPlist.strings */,
+				4A44596D17CE905700B93851 /* main.m */,
+				4A44596F17CE905700B93851 /* GSizeInspector-Prefix.pch */,
+				4A44597017CE905700B93851 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A44598517CE905700B93851 /* GSizeInspectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A44598B17CE905700B93851 /* GSizeInspectorTests.m */,
+				4A44598617CE905700B93851 /* Supporting Files */,
+			);
+			path = GSizeInspectorTests;
+			sourceTree = "<group>";
+		};
+		4A44598617CE905700B93851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A44598717CE905700B93851 /* GSizeInspectorTests-Info.plist */,
+				4A44598817CE905700B93851 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A44595D17CE905700B93851 /* GSizeInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A44598F17CE905700B93851 /* Build configuration list for PBXNativeTarget "GSizeInspector" */;
+			buildPhases = (
+				4A44595A17CE905700B93851 /* Sources */,
+				4A44595B17CE905700B93851 /* Frameworks */,
+				4A44595C17CE905700B93851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSizeInspector;
+			productName = GSizeInspector;
+			productReference = 4A44595E17CE905700B93851 /* GSizeInspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A44597E17CE905700B93851 /* GSizeInspectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A44599217CE905700B93851 /* Build configuration list for PBXNativeTarget "GSizeInspectorTests" */;
+			buildPhases = (
+				4A44597B17CE905700B93851 /* Sources */,
+				4A44597C17CE905700B93851 /* Frameworks */,
+				4A44597D17CE905700B93851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A44598417CE905700B93851 /* PBXTargetDependency */,
+			);
+			name = GSizeInspectorTests;
+			productName = GSizeInspectorTests;
+			productReference = 4A44597F17CE905700B93851 /* GSizeInspectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A44595617CE905700B93851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Klaus Schleicher";
+				TargetAttributes = {
+					4A44597E17CE905700B93851 = {
+						TestTargetID = 4A44595D17CE905700B93851;
+					};
+				};
+			};
+			buildConfigurationList = 4A44595917CE905700B93851 /* Build configuration list for PBXProject "GSizeInspector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A44595517CE905700B93851;
+			productRefGroup = 4A44595F17CE905700B93851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A44595D17CE905700B93851 /* GSizeInspector */,
+				4A44597E17CE905700B93851 /* GSizeInspectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A44595C17CE905700B93851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44596C17CE905700B93851 /* InfoPlist.strings in Resources */,
+				4A44597A17CE905700B93851 /* Images.xcassets in Resources */,
+				4A44597217CE905700B93851 /* Credits.rtf in Resources */,
+				4A44597817CE905700B93851 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A44597D17CE905700B93851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44598A17CE905700B93851 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A44595A17CE905700B93851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44597517CE905700B93851 /* SIAppDelegate.m in Sources */,
+				4A44596E17CE905700B93851 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A44597B17CE905700B93851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44598C17CE905700B93851 /* GSizeInspectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A44598417CE905700B93851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A44595D17CE905700B93851 /* GSizeInspector */;
+			targetProxy = 4A44598317CE905700B93851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A44596A17CE905700B93851 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A44596B17CE905700B93851 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A44597017CE905700B93851 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A44597117CE905700B93851 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A44597617CE905700B93851 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A44597717CE905700B93851 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4A44598817CE905700B93851 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A44598917CE905700B93851 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A44598D17CE905700B93851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A44598E17CE905700B93851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A44599017CE905700B93851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSizeInspector/GSizeInspector-Prefix.pch";
+				INFOPLIST_FILE = "GSizeInspector/GSizeInspector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A44599117CE905700B93851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSizeInspector/GSizeInspector-Prefix.pch";
+				INFOPLIST_FILE = "GSizeInspector/GSizeInspector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A44599317CE905700B93851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSizeInspector.app/Contents/MacOS/GSizeInspector";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSizeInspector/GSizeInspector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GSizeInspectorTests/GSizeInspectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A44599417CE905700B93851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSizeInspector.app/Contents/MacOS/GSizeInspector";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSizeInspector/GSizeInspector-Prefix.pch";
+				INFOPLIST_FILE = "GSizeInspectorTests/GSizeInspectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A44595917CE905700B93851 /* Build configuration list for PBXProject "GSizeInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A44598D17CE905700B93851 /* Debug */,
+				4A44598E17CE905700B93851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A44598F17CE905700B93851 /* Build configuration list for PBXNativeTarget "GSizeInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A44599017CE905700B93851 /* Debug */,
+				4A44599117CE905700B93851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A44599217CE905700B93851 /* Build configuration list for PBXNativeTarget "GSizeInspectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A44599317CE905700B93851 /* Debug */,
+				4A44599417CE905700B93851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A44595617CE905700B93851 /* Project object */;
+}
