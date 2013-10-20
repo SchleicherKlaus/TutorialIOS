@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F936E98A-3394-4BA5-8213-B421C4A3DF4A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GPanel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C416CA02-AFDA-47F5-86EB-B62D16FB695E</key>
+		<string>https://github.com/SchleicherKlaus/TutorialIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GPanel/GPanel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C416CA02-AFDA-47F5-86EB-B62D16FB695E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SchleicherKlaus/TutorialIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C416CA02-AFDA-47F5-86EB-B62D16FB695E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C416CA02-AFDA-47F5-86EB-B62D16FB695E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TutorialIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
